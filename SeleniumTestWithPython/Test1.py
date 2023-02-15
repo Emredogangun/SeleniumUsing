@@ -12,7 +12,7 @@ class Test1(WebDriverBase):
         self.driver.maximize_window()
         time.sleep(2)
 
-        self.driver.find_element_by_name("q").send_keys("Testinium")
+        self.driver.find_element_by_name("q").send_keys("KoçFinans")
         time.sleep(2)
 
         self.driver.find_element_by_name("q").send_keys(Keys.Enter)
