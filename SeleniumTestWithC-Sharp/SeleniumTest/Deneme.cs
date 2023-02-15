@@ -19,7 +19,7 @@ namespace SeleniumTest
 
             //------
             var searchText =driver.FindElement(By.Name("q"));
-            searchText.SendKeys("Testinium");
+            searchText.SendKeys("KoçFinans");
             searchText.SendKeys(Keys.Enter);
 
             //----
