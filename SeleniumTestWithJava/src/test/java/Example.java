@@ -20,7 +20,7 @@ public class Example {
     @Test
     public void test1()  {
         WebElement searchText =driver.findElement(By.name("q"));
-        searchText.sendKeys("Testinium");
+        searchText.sendKeys("KoçFinans");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
     }
